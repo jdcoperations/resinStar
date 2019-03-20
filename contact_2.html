@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resin Star</title>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./style_2.css">
+	<link rel="icon" href="images/favicon.JPG">
+</head>
+<body>
+	<header class="sticky">
+		<nav>
+			<ul class="main-nav">
+				<li> <a href="index_2.html">About</a></li>
+				<li> <a href="resin_2.html">Resin</a></li>
+				<li> <a href="stone_2.html">Stone</a></li> 
+				<li class="rhs-nav"> <a class="selected" href="contact_2.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="biggy">
+		<div class="smlContainer zone" id="abtContact">
+			Please contact me for free quote or to enquire about any of the items shown on the resin and stone pages.
+		</div>
+		<div class="zone grid-wraper">
+			<form class="contactForm">
+				<div class="row">
+					<div class="col">
+						<input type="text" class="form-control" id="Name" placeholder="First Name">
+					</div>	
+					<div class="col">
+						<input type="text" class="form-control" id="surname" placeholder="Surname">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="email" id="Email" class="form-control" placeholder="Email Address">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="tel" id="phoneNo" class="form-control" placeholder="Phone Number">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<textarea rows="8" type="text" id="text" class="form-control" placeholder="Your message..."></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col centerContainer">
+						<button type="button" class="btn btn-primary mb-2" onclick="sendMsg()">Send</button>	
+					</div>
+					<div class="col">
+						<button type="reset" class="btn btn-primary mb-2">Clear</button>
+					</div>
+				</div>	 
+				  
+			</form>
+		</div>	
+		<footer class="zone ftr">
+			Made by jdcopertations limited
+		</footer>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ob",
+				"object-fit\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"slide",
+				"slideIndex"
+			],
+			[
+				"lore",
+				"lorem-photo"
+			],
+			[
+				"background",
+				"background-image\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"ora",
+				"orange0"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"blu",
+				"blue0"
+			],
+			[
+				"tec",
+				"text-decoration\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"gridt",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"border",
+				"border-style\tproperty"
+			],
+			[
+				"col",
+				"col-lg-4"
+			],
+			[
+				"navbar",
+				"navbarActive"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"aa",
+				"AA6634"
+			],
+			[
+				"AA",
+				"AA9134"
+			],
+			[
+				"blue",
+				"blue-4"
+			],
+			[
+				"b",
+				"blue4"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"in",
+				"inline-flex\tdisplay"
+			],
+			[
+				"fl",
+				"flex\tdisplay"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"backgrou",
+				"background-size\tproperty"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jamescook/OneDrive/MAC/html/annimate/w3.css",
+		"/Users/jamescook/Desktop/flexbox/style.css",
+		"/Users/jamescook/OneDrive/MAC/html/startup/index.html",
+		"/Users/jamescook/OneDrive/MAC/html/startup/style.css",
+		"/Users/jamescook/OneDrive/MAC/html/startup/style (1).css",
+		"/Users/jamescook/OneDrive/MAC/html/startup/index (1).html",
+		"/Users/jamescook/OneDrive/MAC/html/bootstrap1/index.html",
+		"/Users/jamescook/OneDrive/MAC/html/robot/index.html",
+		"/Users/jamescook/OneDrive/MAC/html/robot/style.css",
+		"/Users/jamescook/OneDrive/MAC/html/robot/style-ans.css",
+		"/Users/jamescook/OneDrive/MAC/html/robot/index-ans.html",
+		"/Users/jamescook/Desktop/flexbox/index.html",
+		"/Users/jamescook/Desktop/login.html",
+		"/Users/jamescook/Desktop/about.html",
+		"/Users/jamescook/Desktop/style.css",
+		"/Users/jamescook/Desktop/index.html",
+		"/Users/jamescook/Desktop/MyFirstWebSite.html",
+		"/Users/jamescook/Desktop/SecondPage.html",
+		"/Users/jamescook/OneDrive/MyFirstWebSite.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index_2.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

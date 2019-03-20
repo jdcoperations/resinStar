@@ -1,0 +1,251 @@
+:root {
+	/*set custom pallette colors*/
+ --blue0: #7D75AE;
+ --blue1: #554B90;
+ --blue2: #392F76;
+ --blue3: #21175B;
+ --blue4: #0F073D;
+ --yellow0: #FBE79C;
+ --yellow1: #D0B85E;
+ --yellow2: #AA9134;
+ --yellow3: #836C13;
+ --yellow4: #584500;
+ --orange0: #FBC49C;
+ --orange1: #D08E5E;
+ --orange2: #AA6634;
+ --orange3: #834313;
+ --orange4: #582500;
+ --green0: #619C96;
+ --green1: #3A817A;
+ --green2: #206A62;
+ --green3: #0C514A;
+ --green4: #003631;
+}
+
+html {
+	background-color: var(--orange0);
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Kanit', arial, sans-serif;
+}
+
+.zone {
+	color: var(--orange0);
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid var(--blue4);
+	transition: all 0.3s linear;
+	margin: 10px; 
+}
+
+/*.zone:hover {
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,15) 0px -10px 20px;
+	-moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,15) 0px -10px 20px;;
+	-0-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,15) 0px -10px 20px;
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,15) 0px -10px 20px;
+}
+*/
+/* Nav Bar */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	background-color: var(--orange0);
+	font-size: 2em;
+}
+
+.main-nav {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	font-size: 0.7em;
+	background-image: linear-gradient(to top right, var(--blue4), var(--orange3));
+}
+
+
+@media only screen and (max-width: 667px) {
+	.main-nav {
+		font-size: 0.5em;
+		padding: 5px;
+	}
+}
+
+.rhs-nav {
+	margin-left: auto;
+}
+
+li {
+	padding: 20px;
+}
+
+a {
+	color:  var(--orange0);
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+a:hover {
+	font-size: 0.8em;
+}
+
+.selected {
+	color: var(--blue0);
+	text-decoration: underline;
+}
+
+
+.biggy {
+	/*position: fixed;*/
+	/*top: 85px;*/
+	position: relative;
+	margin-top: 75px;
+	overflow: scroll;
+	z-index: 99;
+}
+
+/* cover area */
+.container {
+	margin: 10px;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom right, var(--blue4), var(--orange3));
+}
+
+.smlContainer {
+	margin: 10px;
+	padding: 20px;
+	font-size: 0.9em;
+	height: 25vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom right, var(--blue4), var(--orange3));
+}
+
+.slideshow-container {
+	/*max-width: 100%;*/
+	
+	/*position: relative;*/
+	margin: 10px;
+	padding: 10px;
+}
+
+.mySlides {
+	display: none;
+}
+
+.mkeyImg {
+	vertical-align: center;
+	align-items: center;
+	max-height: 45vh;
+	/*max-width: 100%;*/
+	/*max-height: 300px;*/
+	padding: 10px;
+
+}
+
+@media only screen and (max-width: 667px) {
+	.mkeyImg {
+		max-height: 30vh;
+	}
+}
+.text {
+	color: var(--orange0);
+	font-size: 1em;
+	padding: 10px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.numbertext {
+	color: var(--orange0);
+	font-size: 1em;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+}
+
+.col {
+	padding: 5px;
+}
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 20px;
+	background-image: linear-gradient(to bottom left, var(--orange3), var(--blue4)) ;
+	padding: 20px;
+}
+
+.box {
+	background-color: var(--orange1);
+	color: var(--blue2);
+	padding: 20px;
+	margin: 10px;
+	border-radius: 4px;
+	font-size: 0.5em;
+
+}
+
+.big {
+	grid-column : span 2;
+}
+
+.small {
+	grid-column: span 1;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 667px) {
+	.grid-wrapper {
+		padding: 5px;
+		grid-gap: 5px;
+	}
+	.box {
+		font-size: 0.3em;
+		padding: 5px;
+	}
+	.big {
+		grid-column: span 3;
+	}
+	.small {
+		grid-column: span 3;
+	}
+}
+.introPic {
+	width: 100%;
+	padding: 20px;
+}
+
+.small > img {
+	width: 100%;
+}
+
+.contactForm {
+	background-image: linear-gradient(to bottom left, var(--orange3), var(--blue4)) ;
+	padding: 20px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-control {
+	width: 50%;
+	justify-content: center;
+	align-content: center;
+}
+
+.ftr {
+	display: flex;
+	background-image: linear-gradient(to bottom, var(--blue4), var(--orange3));
+	font-size: 0.7em;
+	align-items: center;
+	justify-content: center;
+}
